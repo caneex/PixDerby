@@ -2,44 +2,69 @@
 
 PixDerby is a real-time multiplayer browser demolition derby game built with Go, WebSockets, and HTML5 Canvas.
 
-Players control vehicles in a shared arena and attempt to eliminate opponents through collisions while competing for survival.
+Players join a shared arena where they control vehicles, collide, survive, and compete in real time.
 
 ---
 
-## Overview
+## Demo
 
-PixDerby is designed around a server-authoritative architecture to ensure consistent gameplay and reliable synchronization between connected clients.
+Explosion System  
+https://github.com/user-attachments/assets/ce21b865-7955-4cf8-911d-2c0aa8b9a293
 
-The project focuses on:
+Boost Pickup System  
+https://github.com/user-attachments/assets/6808cc00-acb3-4cc6-9679-bc872f9cf461
 
-* Real-time multiplayer networking
-* Physics-based vehicle interactions
-* Browser accessibility without installation
-* Lightweight client-server architecture
+Main Menu  
+https://github.com/user-attachments/assets/249a527b-c967-4fbd-b7d6-b8566ce16615
+
+---
+
+## About
+
+PixDerby is built around a server-authoritative multiplayer architecture to ensure consistent gameplay across all connected clients.
+
+The focus of the project is on real-time synchronization, physics-based interactions, and lightweight browser-based gameplay without installation.
+
+---
+
+## Key Features
+
+- Real-time multiplayer gameplay
+- Server-authoritative movement validation
+- Physics-based collisions and damage system
+- Explosion effects system
+- Random boost pickup mechanics
+- Automatic respawn system
+- Multiple players in a shared arena
+- Browser-based client (no installation required)
 
 ---
 
 ## Tech Stack
 
-* Go
-* WebSockets
-* JavaScript
-* HTML5 Canvas
-* CSS
+- Go (server, game loop, networking)
+- WebSockets (real-time communication)
+- JavaScript (client logic)
+- HTML5 Canvas (rendering engine)
+- CSS (UI layer)
 
 ---
 
-## Features
+## Architecture
 
-* Real-time multiplayer gameplay
-* Server-authoritative movement validation
-* Vehicle collision and damage system
-* Explosion effects
-* Random boost pickup system
-* Automatic respawn system
-* Multiple players in a shared arena
-* Browser-based client
-* Lightweight deployment
+The system is divided into two main parts:
+
+**Server (Go)**
+- Handles game state
+- Validates movement
+- Processes collisions
+- Synchronizes all clients
+
+**Client (JavaScript)**
+- Renders game state
+- Handles input
+- Sends movement data
+- Displays visual effects
 
 ---
 
@@ -60,50 +85,3 @@ pixderby/
 │           ├── demo_01_explosion.mp4
 │           ├── demo_02_boost.mp4
 │           └── demo_03_menu.mp4
-```
-
-## Current Status
-
-PixDerby is currently under active development.
-
-Implemented systems:
-
-* Multiplayer synchronization
-* Vehicle movement and collisions
-* Damage handling
-* Respawn mechanics
-* Explosion effects
-* Boost pickups
-* Main menu interface
-
-Planned improvements:
-
-* Additional maps
-* Sound effects
-* Improved visual effects
-* Match statistics
-* Dedicated server support
-
----
-
-## Running Locally
-
-### Server
-
-```bash
-go run server/main.go
-```
-
-### Client
-
-Open `client/index.html` in your browser and connect to the running server.
-
----
-
-## Screenshots and Videos
-
-Gameplay recordings are available in:
-
-```text
-client/assets/video/
-```
