@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>PixDerby</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <div class="panel">
+      <div class="title">PixDerby</div>
+      <div id="menu-main">
+        <div class="nickname-field">
+          <input id="nickname" maxlength="16" placeholder=" " />
+          <span id="nickname-label">Nickname</span>
+        </div>
+        <button id="play">Play</button>
+        <button id="settings">Settings</button>
+        <button id="credits">Credits</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="credits-panel" class="hidden">
+    <div class="panel credits">
+      <div class="title">PixDerby</div>
+      <div class="credits-text">CaNeex</div>
+      <button id="credits-close">Back</button>
+    </div>
+  </div>
+
+  <div id="settings-panel" class="hidden">
+    <div class="panel settings">
+      <div class="title">PixDerby</div>
+      <div class="settings-group">
+        <label class="settings-label" for="menu-volume">Menu volume</label>
+        <input id="menu-volume" type="range" min="0" max="100" value="60" />
+      </div>
+      <button id="settings-cars">Cars</button>
+      <button id="settings-back">Back</button>
+    </div>
+  </div>
+
+  <div id="cars-panel" class="hidden">
+    <div class="panel cars">
+      <div class="title">PixDerby</div>
+      <div class="cars-row">
+        <button id="car-prev" class="arrow">&lt;</button>
+        <img id="car-preview" alt="car preview" />
+        <button id="car-next" class="arrow">&gt;</button>
+      </div>
+      <div id="car-label" class="credits-text">#1</div>
+      <div id="car-name" class="car-name"></div>
+      <button id="car-pick">Pick</button>
+      <button id="car-back">Back</button>
+    </div>
+  </div>
+
+  <div id="pause-panel" class="hidden">
+    <div class="panel pause">
+      <div class="title">PixDerby</div>
+      <button id="pause-continue">Continue</button>
+      <button id="pause-settings">Settings</button>
+      <button id="pause-exit">Exit</button>
+    </div>
+  </div>
+
+  <canvas id="game"></canvas>
+  <script src="game.js?23esc"></script>
+</body>
+</html>
