@@ -1,28 +1,45 @@
-# Derby MVP
+# 🏁 PixDerby
 
-A multiplayer browser-based demolition derby game built with Go and WebSockets.
+A real-time multiplayer browser demolition derby game built with Go and WebSockets.
 
-## Features
+---
 
-* Real-time multiplayer gameplay
-* Server-authoritative movement and collision system
-* Vehicle damage states
-* Automatic respawn system
-* Browser-based client (no installation required)
-* Custom vehicle sprites and arena map
+## 🎮 About the project
 
-## Tech Stack
+PixDerby is a physics-based multiplayer arena game where players control cars and try to eliminate each other through collisions.
 
-* Go
-* WebSockets
-* HTML5 Canvas
-* JavaScript
-* CSS
+The project focuses on:
+- real-time multiplayer synchronization
+- server-authoritative physics
+- lightweight browser client (no installation required)
 
-## Project Structure
+---
+
+## ⚙️ Tech Stack
+
+- Go (backend server + game loop)
+- WebSockets (real-time sync)
+- JavaScript (client logic)
+- HTML5 Canvas (rendering)
+- CSS (UI)
+
+---
+
+## 🧠 Core Features
+
+- 🌍 Real-time multiplayer (LAN / localhost)
+- 🚗 Server-side movement validation
+- 💥 Collision + damage system
+- 🔄 Auto-respawn system
+- 🎯 Multiple players in one arena
+- 🖥 Browser-based client
+
+---
+
+## 📁 Project Structure
 
 ```text
-derby-mvp/
+pixderby/
 ├── server/
 │   └── main.go
 ├── client/
@@ -32,45 +49,3 @@ derby-mvp/
 │   └── assets/
 │       ├── cars/
 │       └── map/
-```
-
-## Running Locally
-
-1. Open a terminal inside the `server` directory.
-2. Run:
-
-```bash
-go run .
-```
-
-3. Open:
-
-```text
-http://localhost:8080
-```
-
-4. Open multiple tabs or devices to test multiplayer.
-
-## Current Gameplay
-
-Players drive vehicles inside an arena and collide with opponents.
-
-* Server handles all movement validation.
-* Collision responses are calculated on the server.
-* Vehicles receive damage when hit.
-* Destroyed vehicles respawn automatically after 4 seconds.
-
-## Planned Features
-
-* Client-side prediction and reconciliation
-* Power-ups
-* Arena hazards
-* Team game modes
-* Scoreboard system
-* Audio effects
-* Improved destruction mechanics
-
-## Status
-
-Active personal project currently under development.
-
