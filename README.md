@@ -34,19 +34,25 @@ The main goal is to explore gameplay feel before system complexity and long-term
 
 <p align="center">
   <a href="https://github.com/user-attachments/assets/ce21b865-7955-4cf8-911d-2c0aa8b9a293">
-    <img src="https://img.youtube.com/vi/dummy/mqdefault.jpg" width="420"/>
+    <video width="420" controls>
+      <source src="https://github.com/user-attachments/assets/ce21b865-7955-4cf8-911d-2c0aa8b9a293" type="video/mp4">
+    </video>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/user-attachments/assets/6808cc00-acb3-4cc6-9679-bc872f9cf461">
-    <img src="https://img.youtube.com/vi/dummy/mqdefault.jpg" width="420"/>
+    <video width="420" controls>
+      <source src="https://github.com/user-attachments/assets/6808cc00-acb3-4cc6-9679-bc872f9cf461" type="video/mp4">
+    </video>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/user-attachments/assets/249a527b-c967-4fbd-b7d6-b8566ce16615">
-    <img src="https://img.youtube.com/vi/dummy/mqdefault.jpg" width="420"/>
+    <video width="420" controls>
+      <source src="https://github.com/user-attachments/assets/249a527b-c967-4fbd-b7d6-b8566ce16615" type="video/mp4">
+    </video>
   </a>
 </p>
 
