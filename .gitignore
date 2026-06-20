@@ -1,0 +1,4 @@
+*.exe
+server/*.exe
+dist/
+build/
