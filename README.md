@@ -1,36 +1,53 @@
 # PixDerby
 
-A fast-paced 2D arcade racing game with dynamic boosts, explosions, and chaotic gameplay.
+Fast-paced arcade racing prototype with dynamic boosts, explosions, and chaotic gameplay.
 
 ---
 
-## Overview
-
-PixDerby is a lightweight arcade project focused on speed, timing, and unpredictable in-game events.  
-The core idea is simple: race, survive chaos, and use boosts at the right moment.
-
-Built as a prototype for experimenting with gameplay mechanics and real-time effects.
-
----
-
-## Gameplay Preview
+## Gameplay Overview
 
 <p align="center">
-  <img src="client/assets/photo/demo_01_explosion.png" width="280"/>
-  <img src="client/assets/photo/demo_02_boost.png" width="280"/>
-  <img src="client/assets/photo/demo_03_gameplay.png" width="280"/>
+  <img src="client/assets/photo/demo_03_gameplay.png" width="90%" />
 </p>
 
 ---
 
-## Core Features
+## Core Moments
 
-- Dynamic boost system with random spawn logic
-- Explosion and impact visual effects
-- Fast-paced arcade movement
-- Lightweight client-side structure
-- Prototype architecture for rapid iteration
+<p align="center">
+  <img src="client/assets/photo/demo_01_explosion.png" width="45%" />
+  <img src="client/assets/photo/demo_02_boost.png" width="45%" />
+</p>
+
+---
+
+## About the Project
+
+PixDerby is a prototype focused on fast arcade gameplay, reaction timing, and dynamic in-game events.
+
+The main goal is to explore gameplay feel before system complexity and long-term scaling.
+
+---
+
+## Features
+
+- Boost system with dynamic spawn logic  
+- Explosion and impact effects  
+- Fast arcade movement  
+- Lightweight prototype structure  
+- Gameplay-first design approach  
 
 ---
 
 ## Project Structure
+
+```text
+client/
+server/
+assets/
+```
+---
+
+## Status
+
+Early prototype stage focused on gameplay feel, iteration speed, and core mechanics testing.
