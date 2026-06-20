@@ -1,87 +1,36 @@
 # PixDerby
 
-PixDerby is a real-time multiplayer browser demolition derby game built with Go, WebSockets, and HTML5 Canvas.
-
-Players join a shared arena where they control vehicles, collide, survive, and compete in real time.
+A fast-paced 2D arcade racing game with dynamic boosts, explosions, and chaotic gameplay.
 
 ---
 
-## Demo
+## Overview
 
-Explosion System  
-https://github.com/user-attachments/assets/ce21b865-7955-4cf8-911d-2c0aa8b9a293
+PixDerby is a lightweight arcade project focused on speed, timing, and unpredictable in-game events.  
+The core idea is simple: race, survive chaos, and use boosts at the right moment.
 
-Boost Pickup System  
-https://github.com/user-attachments/assets/6808cc00-acb3-4cc6-9679-bc872f9cf461
-
-Main Menu  
-https://github.com/user-attachments/assets/249a527b-c967-4fbd-b7d6-b8566ce16615
+Built as a prototype for experimenting with gameplay mechanics and real-time effects.
 
 ---
 
-## About
+## Gameplay Preview
 
-PixDerby is built around a server-authoritative multiplayer architecture to ensure consistent gameplay across all connected clients.
-
-The focus of the project is on real-time synchronization, physics-based interactions, and lightweight browser-based gameplay without installation.
-
----
-
-## Key Features
-
-- Real-time multiplayer gameplay
-- Server-authoritative movement validation
-- Physics-based collisions and damage system
-- Explosion effects system
-- Random boost pickup mechanics
-- Automatic respawn system
-- Multiple players in a shared arena
-- Browser-based client (no installation required)
+<p align="center">
+  <img src="client/assets/photo/demo_01_explosion.png" width="280"/>
+  <img src="client/assets/photo/demo_02_boost.png" width="280"/>
+  <img src="client/assets/photo/demo_03_gameplay.png" width="280"/>
+</p>
 
 ---
 
-## Tech Stack
+## Core Features
 
-- Go (server, game loop, networking)
-- WebSockets (real-time communication)
-- JavaScript (client logic)
-- HTML5 Canvas (rendering engine)
-- CSS (UI layer)
-
----
-
-## Architecture
-
-The system is divided into two main parts:
-
-**Server (Go)**
-- Handles game state
-- Validates movement
-- Processes collisions
-- Synchronizes all clients
-
-**Client (JavaScript)**
-- Renders game state
-- Handles input
-- Sends movement data
-- Displays visual effects
+- Dynamic boost system with random spawn logic
+- Explosion and impact visual effects
+- Fast-paced arcade movement
+- Lightweight client-side structure
+- Prototype architecture for rapid iteration
 
 ---
 
 ## Project Structure
-
-```text
-pixderby/
-├── server/
-│   └── main.go
-├── client/
-│   ├── index.html
-│   ├── game.js
-│   ├── style.css
-│   └── assets/
-│       ├── cars/
-│       ├── map/
-│       └── video/
-│           ├── demo_01_explosion.mp4
-│           ├── demo_02_boost.mp4
-│           └── demo_03_menu.mp4
