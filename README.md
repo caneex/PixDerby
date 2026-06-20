@@ -43,8 +43,24 @@ The main goal is to explore gameplay feel before system complexity and long-term
 
 ```text
 client/
+├── assets/
+│ ├── photo/
+│ │ ├── demo_01_explosion.png
+│ │ ├── demo_02_boost.png
+│ │ └── demo_03_gameplay.png
+│ ├── cars/
+│ ├── map/
+│ └── video/
+│ ├── demo_01_explosion.mp4
+│ ├── demo_02_boost.mp4
+│ └── demo_03_menu.mp4
+├── style.css
+
 server/
-assets/
+├── derby.exe
+├── core logic / build output
+
+README.md
 ```
 ---
 
