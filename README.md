@@ -33,21 +33,9 @@ The main goal is to explore gameplay feel before system complexity and long-term
 ## Gameplay Demo
 
 <p align="center">
-  <video width="360" controls>
-    <source src="https://github.com/user-attachments/assets/ce21b865-7955-4cf8-911d-2c0aa8b9a293" type="video/mp4">
-  </video>
-</p>
-
-<p align="center">
-  <video width="360" controls>
-    <source src="https://github.com/user-attachments/assets/6808cc00-acb3-4cc6-9679-bc872f9cf461" type="video/mp4">
-  </video>
-</p>
-
-<p align="center">
-  <video width="360" controls>
-    <source src="https://github.com/user-attachments/assets/249a527b-c967-4fbd-b7d6-b8566ce16615" type="video/mp4">
-  </video>
+  <a href="https://github.com/user-attachments/assets/ce21b865-7955-4cf8-911d-2c0aa8b9a293">
+    <img width="360" src="https://img.youtube.com/vi/dummy/maxresdefault.jpg" alt="Explosion Demo">
+  </a>
 </p>
 
 ---
